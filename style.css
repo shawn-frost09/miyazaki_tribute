@@ -28,6 +28,7 @@
   background-color: #329EA1;
   font-family: 'Oranienbaum', serif;
   color: #271F20;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3{
