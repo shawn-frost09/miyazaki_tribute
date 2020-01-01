@@ -25,7 +25,7 @@
 }
 
 *{
-  background-color: #329EA1;  
+  background-color: #329EA1;
   font-family: 'Oranienbaum', serif;
   color: #271F20;
 }
@@ -58,4 +58,8 @@ li{
 
 #last_line{
   background: #AAA79B;
+}
+
+#last_para{
+  background: #DB7776;
 }
