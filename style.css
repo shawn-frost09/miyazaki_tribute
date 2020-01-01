@@ -1,10 +1,44 @@
 #img-poster{
-    display: flex;
-    width: 100px;
-    height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
   }
 
+#thumbnail{
+  width: 200px;
+  height: 300px;
+}
+
+#img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title, #img-caption{
+  text-align: center;
+}
+
+#poster-caption{
+  color: #271F20;
+}
+
 *{
-    fill: blue;
-    fill-opacity: 75%;
+  background-color: #329EA1;  
+  font-family: 'Oranienbaum', serif;
+}
+
+p{
+  text-align: center;
+}
+
+ul{
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li{
+  list-style-type: none;
 }
