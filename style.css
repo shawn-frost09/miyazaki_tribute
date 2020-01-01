@@ -17,6 +17,7 @@
 
 #title, #img-caption{
   text-align: center;
+  background-color: #AAA79B;
 }
 
 #poster-caption{
@@ -29,8 +30,9 @@
   color: #271F20;
 }
 
-h1, h2{
+h1, h2, h3{
   font-family: 'Roboto', sans-serif;
+  text-align: start;
 }
 
 p{
@@ -52,4 +54,8 @@ li{
   display: grid;
   grid-template-columns: auto auto auto auto;
   align-content: center;
+}
+
+#last_line{
+  background: #AAA79B;
 }
