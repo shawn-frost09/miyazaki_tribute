@@ -3,3 +3,8 @@
     width: 100px;
     height: 200px;
   }
+
+*{
+    fill: blue;
+    fill-opacity: 75%;
+}
