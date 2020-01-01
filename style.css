@@ -32,13 +32,18 @@ p{
   text-align: center;
 }
 
-ul{
+#lit{
   display: flex;
   align-items: stretch;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
 }
 
 li{
   list-style-type: none;
+}
+
+#list{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
 }
